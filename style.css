@@ -1,0 +1,93 @@
+
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+    color: rgba(98, 98, 98, 255);
+    font-family: 'Playfair Display', serif;
+}
+.header {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 77px;
+    padding-bottom: 102px;
+}
+.main {
+    margin-bottom: 58px;
+}
+.links {
+    font-size: 0;
+}
+.links li {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+.links a {
+    display: block;
+    text-decoration: none;
+    color: rgba(98, 98, 98, 255);
+}
+.links a:hover {
+    color: rgb(104, 214, 248);
+}
+
+.lorem-p {
+    width: 420px;
+    font-size: 14px;
+    line-height: 25px;
+} 
+.main-p {
+    height: 45px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.container img {
+    margin-bottom: 28px;
+}
+.container h2 {
+    margin-bottom: 37px;
+}
+.container article {
+    display: inline-block;
+    width: 420px;
+
+}
+.container article:nth-child(1) {
+   margin-right: 56px;
+  }
+  .container:nth-child(1) {
+    margin-bottom: 132px;
+   }
+   .container:nth-child(2) {
+    margin-bottom: 132px;
+   }
+.footer {
+    height: 187px;
+
+  }
+  .button {
+    display: block;
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+  }
+  .button a {
+    text-decoration: none;
+    color: rgba(98, 98, 98, 255);  
+  }
+
